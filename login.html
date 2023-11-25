@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-------- Fontwesome CDN --------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!------- Google Fonts -------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!---------- custom css ------------>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+
+    <section class="login">
+        <div class="container">
+            <div class="header_logo">
+                <img src="./assets/img/logo/DigiVerse-Logo.png" alt="">
+            </div>
+            <div class="login_main">
+                <h2 class="ligin_title">Welcome Back</h2>
+                <form action="#">
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="Enter email" required>
+                    <label for="pass"></label>
+                    <input type="password" name="pass" id="pass" placeholder="Enter password" required>
+                    <button type="submit" class="login_btn">Log in</button>
+                
+                    <p class="login_bottom">Don't have an account? <a href="signup.html">Sign up</a></p>
+                    <div class="login_with_google">
+                        <div class="or">
+                            <div class="or_border"></div>
+                            <div class="or_content">OR</div>
+                            <div class="or_border"></div>
+                        </div>
+                        <button type="submit" class="another_btn">
+                            <img src="./assets/img/logo/google.png" alt="">
+                            <p>Continue with Google</p>
+                        </button>
+                        <button type="submit" class="another_btn">
+                            <img src="./assets/img/logo/wmudn.png" alt="">
+                            <p>Continue with Microsoft Account</p>
+                        </button>
+                    </div>
+                </form>
+                <div class="trams">
+                    <a href="#">Terms of use</a>
+                    <a href="#">Privacy policy</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   
+
+    <!--------- Jquery cdn by Google ----------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!------------ Custom js ------------->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
